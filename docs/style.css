@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Archivo+Black&family=Dancing+Script:wght@400..700&family=Lobster&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap');
+
+/* tela login */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body {
+    min-height: 100vh;
+    background: url(Norway-Wallpapers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around; /* Espaçamento entre os links */
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.331);
+    height: 8vh;
+    width: 100%;
+}
+
+nav ul {
+    display: flex; /* Alinha os links na horizontal */
+    list-style: none; /* Remove a marcação da lista */
+}
+nav li {
+    margin: 0 50px;
+    font-size: 25px;
+}
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    margin-top: 300px;
+    margin-left: 800px;
+    margin-right: 800px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.295);
+    border-radius: 35px;
+    color: aliceblue;
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    backdrop-filter: blur(3px); 
+}
+.container h1 {
+    font-size: 50px;
+    text-align: center ;
+}
+.container h1 span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    font-size: 60px;
+}
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+}
+.input-box input {
+    width: 100%;
+    height: 50PX;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.336);
+    outline: none;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+    color: aliceblue;
+}
+.lembrar {
+    display: flex;
+    justify-content: space-between;
+    margin: -28px 0 15px;
+}
+.lembrar label input {
+    accent-color: rgb(255, 255, 255);
+    margin-right: 5px;
+}
+.lembrar a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+.lembrar a:hover {
+    text-decoration: underline;
+}
+.button-login button{
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.button-login button:hover {
+    background-color: rgba(255, 255, 255, 0.226);
+    border: 2px solid rgba(252, 252, 252, 0.199);
+    color: aliceblue;
+    transition: 0.3s;
+}
+.register-link {
+    font-size: 16px;
+    text-align: center;
+    margin: 30px 0 15px;
+}
+.register-link a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 5px;
+    font-weight: 600;
+}
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* tela inicio */
+
+.titulo-inicio {
+    text-align: center;
+    padding-top: 200px;
+   
+}
+.titulo-inicio h1 {
+    font-size: 150px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    
+}
+.titulo-inicio h2 {
+    font-size: 35px;
+    color: aliceblue;
+    margin-top: -30px;
+    margin-bottom: 150px;
+    
+}
+.txtinicio h3 {
+    font-size: 25px;
+    color: aliceblue;
+}
+.txtinicio {
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.46);
+    font-size: 20px;
+    text-align: center;
+    padding: 100px 150px 100px 150px;
+}
+.container-gallery {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 100px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    float: left;
+    width: 25%; 
+    transition: transform 0.3s ease;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    transform: scale(1.1);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+  }
+
+  
+  div.desc {
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.627);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+  }
+  /* tela-viagem*/
+
+  .container-viagem {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .header-viagem {
+    background-color: rgba(0, 0, 0, 0.336);
+    padding: 100px;
+    border-bottom: 100px;
+  }
+  .header-viagem h1 {
+    font-size: 60px;
+  }
+  .header-viagem span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    
+  }
+  .section-viagem {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+ .hg1 {
+    padding: 100px;
+    width: 25%;
+    margin-left: 60px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 35px;
+ }
+ .hg2 {
+    padding: 100px;
+    width: 25%;
+    margin-left: 60px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 35px;
+ }
+ .hg3 {
+    padding: 100px;
+    width: 25%;
+    margin-left: 60px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 35px;
+ }
+ .hg4 {
+    padding: 100px;
+    width: 25%;
+    margin-left: 60px;background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 35px;
+ }
+
+ /*tela destino */
+
+    .container-header-destino {
+        color: aliceblue;
+        text-align: center;
+        margin-top: 100px;
+
+    }
+
+    .container-destino {
+        display: flex;
+        color: aliceblue;
+        gap: 3rem;
+        padding: 0px 200px 0px 200px;
+    }
+
+    .header-destino {
+        margin-bottom:100px;
+        text-align: center;
+        padding-top: 200px;
+        background-color: rgba(0, 0, 0, 0.46);
+
+    }
+    .header-destino h1 {
+        font-size: 150px;
+        margin-bottom: 20px;
+        font-size: 150px;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+    }
+    .header-destino h2 {
+      font-size: 35px;
+    }
+
+    .section-destino{
+        padding:100px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.46);
+        border-radius: 35px
+    }
+    .section-destino h2{
+      font-size: 35px;
+      margin-top: 80px;
+    }
+    .section-destino p {
+      font-size: 25px;
+    }
+
+
